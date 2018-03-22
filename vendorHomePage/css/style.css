@@ -1,0 +1,58 @@
+:root {
+  --color-primary: #277b92;
+
+  --color-grey-dark: #333;
+}
+
+body {
+  padding: 2rem;
+}
+
+.navigation {
+  padding: 1rem 0;
+}
+
+.navigation-icons {
+  padding-right: 1rem;
+}
+
+.active {
+
+}
+
+a {
+  color: #277b92;
+}
+
+
+.card {
+  margin: 0 auto;
+}
+
+
+.container {
+  padding-top: 1rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: var(--color-primary) ;
+  color: #fff ;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.rest-add {
+  text-indent: 10px;
+}
+
+.add-label {
+  color: var(--color-grey-dark);
+}
+
+.rest {
+  padding: 0;
+  margin: 0.3rem;
+}
